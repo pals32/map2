@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная карта BG3</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <nav class="sidebar">    
+        <div class="logo-menu">
+            <h2 class="logo">Baldurs Gate 3</h2>
+            <i class='bx bx-menu toggle-btn'></i>
+        </div>
+        <ul class="list">
+            <li class="list-item">
+                <a onclick="window.location='main.html'">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link-name" style="--i:1;" >Dashboard</span>
+                </a>
+                <a onclick="window.location='map.html'">
+                    <i class='bx bx-map-alt'></i>
+                    <span class="link-name" style="--i:2;" >Map</span>
+                </a>
+                <a>
+                    <i class='bx bx-cog'></i>
+                    <span class="link-name" style="--i:3;">Setting</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <iframe class="bg3site" src="https://baldursgate3.game/news/" frameborder="0"></iframe>
+    <img class="bg" src="./img/background.jpg" alt="">
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
